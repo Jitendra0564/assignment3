@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fourthquestion
+namespace 4_question
 {
     class MyBaseClass
     {
@@ -16,12 +16,12 @@ namespace fourthquestion
     }
 }
 
-class MyDerivedClass : MyBaseClass
+class MyDrivedClass : MyBaseClass
 {
     public void AccessProtectedMembers()
     {
        ab = 42;
-        Console.WriteLine($"Accessed myProtectedField from MyDerivedClass: {ab}");
+        Console.WriteLine($"Accessed myProtectedField from MyDrivedClass: {ab}");
 
         MyProtectedMethod();
     }
@@ -31,7 +31,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        MyDerivedClass obj = new MyDerivedClass();
+        MyDrivedClass obj = new MyDrivedClass();
         obj.AccessProtectedMembers();
             Console.Read();
     }
