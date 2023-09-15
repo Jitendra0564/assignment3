@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _6thquestion
 {
-    //Create a class with a public property. Derive another class and try to access the property.
+    //Create a class with a public property. Drive another class and try to access the property.
    
     public class BaseClass
     {
@@ -15,11 +15,11 @@ namespace _6thquestion
     }
 
    
-    public class DerivedClass : BaseClass
+    public class DrivedClass : BaseClass
     {
         public void PropertyAccess()
         {
-            Console.WriteLine("Value of MyProperty in the derived class: " + MyProperty);
+            Console.WriteLine("Value of MyProperty in the drived class: " + MyProperty);
         }
     }
 
@@ -28,13 +28,13 @@ namespace _6thquestion
         static void Main(string[] args)
         {
             
-            DerivedClass derivedObj = new DerivedClass();
+            DrivedClass derivedObj = new DrivedClass();
 
            
-            derivedObj.MyProperty = "Hello, World!";
+            drivedObj.MyProperty = "Hello, World!";
             
 
-            derivedObj.PropertyAccess();
+            drivedObj.PropertyAccess();
 
            Console.Read();
         }
