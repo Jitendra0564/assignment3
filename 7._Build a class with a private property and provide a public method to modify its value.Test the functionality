@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _7thqueston
+namespace _7 question
 {/// <summary>
 /// 7.	Build a class with a private property and provide a public method to modify its value. Test the functionality.
 /// </summary>
