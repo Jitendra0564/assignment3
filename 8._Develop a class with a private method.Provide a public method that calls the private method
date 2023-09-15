@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _8thqueston
+namespace _8 question
 {
     class que
     {
        
-        private void Method1()
+        private void MethodA()
         {
             Console.WriteLine("This is a private method.");
         }
 
        
-        public void Method2()
+        public void MethodB()
         {
             Console.WriteLine("This is a public method.");
-            Method1(); 
+            MethodA(); 
         }
     }
 
@@ -30,7 +30,7 @@ namespace _8thqueston
             que Obj = new que();
 
             
-            Obj.Method2();
+            Obj.MethodB();
             Console.Read();
 
         }
