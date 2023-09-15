@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fifthquestion
+namespace 5_question
 {
     internal class internalprotected
     {
@@ -36,7 +36,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fifthquestion
+namespace 5_question
 {
     internal class Program
     {
