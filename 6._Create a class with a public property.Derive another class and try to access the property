@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6thquestion
+namespace 6_question
 {
     //Create a class with a public property. Drive another class and try to access the property.
    
