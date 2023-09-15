@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _9thqueston
+namespace _9 question
 {
     class Base
     {
@@ -15,11 +15,11 @@ namespace _9thqueston
     }
 
   
-    class Derived : Base
+    class Drived : Base
     {
         public void Access()
         {
-            Console.WriteLine("Calling protected method from derived class:");
+            Console.WriteLine("Calling protected method from drived class:");
             ProMethod(); 
         }
     }
@@ -28,7 +28,7 @@ namespace _9thqueston
     {
         static void Main()
         {
-            Derived dObj = new Derived();
+            Drived dObj = new Drived();
             dObj.Access();
             Console.Read();
         }
